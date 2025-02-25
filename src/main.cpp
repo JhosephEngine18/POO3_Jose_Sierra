@@ -18,7 +18,7 @@ int main ()
 {
     cout<<"What is yout name?" << endl;
     cin>>Name;
-    cout<<"What is your middle" << endl;
+    cout<<"What is your middle name" << endl;
     cin>>MLName;
     cout<<"How old are you?" << endl;
     cin>>Age;
@@ -28,4 +28,6 @@ int main ()
     cout<<"Your name is: "<< Name + " " + MLName + "\n";
     cout<<"You are: "<< to_string(Age) + " Years old" "\n";
     cout<<"Your stature is: " << to_string(Stature) + "\n";
+
+    return 0;
 }
