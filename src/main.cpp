@@ -22,7 +22,7 @@ int main ()
     cin>>MLName;
     cout<<"How old are you?" << endl;
     cin>>Age;
-    cout<<"How tall are you?" << endl;
+    cout<<"How tall are you? (CM)" << endl;
     cin>>Stature;
 
     cout<<"Your name is: "<< Name + " " + MLName + "\n";
